@@ -2,8 +2,6 @@ import React from 'react'
 
 export class Track extends React.Component {
     render() {
-
-
         const renderAction = () => {
             if (this.props.isRemoval) {
                 return <button>-</button>
